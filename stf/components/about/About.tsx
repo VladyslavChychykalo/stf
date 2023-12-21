@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="px-[16px] mt-[20px]">
+    <section className="mt-5 px-4">
       <ul>
         <li>
-          <p className="text-[15px] leading-[22.5px] pb-[16px]">
+          <p className="pb-4 text-[15px] leading-[22.5px]">
             <span className="font-semibold leading-[22.5px]">
               ТОВ “СТФ ЕНЕРГО”
             </span>
@@ -15,7 +15,7 @@ const About = () => {
             кожного замовника, забезпечуючи оптимальні рішення для ваших потреб
             та завдань.
           </p>
-          <div className="relative w-full h-[292px] md:h-[460px] md:w-[467px]">
+          <div className="relative h-[292px] w-full md:h-[460px] md:w-[467px]">
             <Image
               layout="fill"
               objectFit="contain"
@@ -26,7 +26,7 @@ const About = () => {
           </div>
         </li>
         <li>
-          <p className="text-[15px] leading-[22.5px] py-[16px]">
+          <p className="py-4 text-[15px] leading-[22.5px]">
             Промисловий ресурс країни може слугувати ефективним засобом для
             економіії ваших коштів. Тому ми пропонуємо вам обладнання скадського
             зберігання, та яке було у використанні, що дозволить заощадити кошти
@@ -34,7 +34,7 @@ const About = () => {
             відзначають якість наших послуг та задоволені результатами
             співпраці.
           </p>
-          <div className="relative w-full h-[405px] md:h-[537px] md:w-[425px]">
+          <div className="relative h-[405px] w-full md:h-[537px] md:w-[425px]">
             <Image
               layout="fill"
               objectFit="contain"
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </li>
         <li>
-          <p className="text-[15px] leading-[22.5px] py-[16px]">
+          <p className="py-4 text-[15px] leading-[22.5px]">
             Ми віримо, що успіх вашого бізнесу є важливим кроком для розвитку
             нашої країни. Тому ми прагнемо спільно працювати з вами в команді,
             щоб вирішити ваші завдання.
@@ -53,7 +53,7 @@ const About = () => {
             <br /> Зверніться до нас сьогодні, і ми з радістю надамо вам
             докладну інформацію про наші послуги та ціни.
           </p>
-          <div className="relative w-full h-[222px] md:h-[326px] md:w-[492px]">
+          <div className="relative h-[222px] w-full md:h-[326px] md:w-[492px]">
             <Image
               layout="fill"
               objectFit="contain"

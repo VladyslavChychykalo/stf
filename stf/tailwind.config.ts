@@ -24,10 +24,16 @@ const config: Config = {
       backgroundColor: {
         "custom-blue": "#1B4A9D",
       },
+      borderColor: {
+        "custom-blue": "#1B4A9D",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      fontFamily: {
+        openSans: ["var(--font-openSans)"],
       },
     },
   },
