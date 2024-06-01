@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 
 type AdvantagesT = {
@@ -46,7 +45,7 @@ const Advantages = () => {
         className="bg-advantages-background absolute left-0 top-[-60px] z-[-1] h-[342px] w-full max-w-[445px] bg-cover bg-center"
         style={{ backgroundImage: "url('assets/images/electricity.png')" }}
       />
-      <h3 className="mb-5 text-center text-[18px] font-bold uppercase leading-[24px]">
+      <h3 className="xl2:text-[36px] xl2:leading-[50px] mb-5 text-center text-[18px] font-bold uppercase leading-[24px]">
         Наші переваги
       </h3>
       <ul className="flex flex-col gap-2">

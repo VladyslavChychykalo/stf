@@ -35,6 +35,9 @@ const config: Config = {
       fontFamily: {
         openSans: ["var(--font-openSans)"],
       },
+      screens: {
+        xl2: "1400px",
+      },
     },
   },
   plugins: [],
