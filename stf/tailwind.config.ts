@@ -39,7 +39,7 @@ const config: Config = {
         xl2: "1400px",
       },
       spacing: {
-        custom: "calc(100% - 20px)",
+        custom: "calc(100% - 72px)",
       },
     },
   },

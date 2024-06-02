@@ -1,110 +1,20 @@
-import Image from "next/image";
-import Marquee from "react-fast-marquee";
+import Desktop from "./desktop/Desktop";
+import Mobile from "./mobile/Mobile";
 
 const Partners = () => {
   return (
-    <div>
-      <h3 className="xl2:text-[36px] xl2:leading-[50px] mb-5 text-center text-[18px] font-bold uppercase leading-[24px]">
+    <section className="mt-[52px] lg:mt-[100px]">
+      <h3 className="mb-5 text-center text-[18px] font-bold uppercase leading-[24px] lg:mb-12 lg:text-[36px] lg:leading-[50px]">
         Наші партнери
       </h3>
-      {/* <div className="flex justify-center px-[20px]">
-        <div className="flex gap-[28px]">
-          <Image
-            src="/assets/images/partners/partner1.png"
-            key="partner1"
-            alt="Partner 1"
-            width={142}
-            height={130}
-          />
-          <Image
-            src="/assets/images/partners/partner2.png"
-            key="partner2"
-            alt="Partner 2"
-            width={142}
-            height={130}
-          />
-          <Image
-            src="/assets/images/partners/partner3.png"
-            key="partner3"
-            alt="Partner 3"
-            width={136}
-            height={130}
-          />
-          <Image
-            src="/assets/images/partners/partner4.png"
-            key="partner4"
-            alt="Partner 4"
-            width={130}
-            height={130}
-          />
-          <Image
-            src="/assets/images/partners/partner5.png"
-            key="partner5"
-            alt="Partner 5"
-            width={130}
-            height={130}
-          />
-          <Image
-            src="/assets/images/partners/partner6.png"
-            key="partner6"
-            alt="Partner 6"
-            width={120}
-            height={130}
-          />
-        </div>
-      </div> */}
 
-      <Marquee>
-        <Image
-          className="mr-7"
-          src="/assets/images/partners/partner1.png"
-          key="partner1"
-          alt="Partner 1"
-          width={70}
-          height={64}
-        />
-        <Image
-          className="mr-7"
-          src="/assets/images/partners/partner2.png"
-          key="partner2"
-          alt="Partner 2"
-          width={70}
-          height={64}
-        />
-        <Image
-          className="mr-7"
-          src="/assets/images/partners/partner3.png"
-          key="partner3"
-          alt="Partner 3"
-          width={67}
-          height={64}
-        />
-        <Image
-          className="mr-7"
-          src="/assets/images/partners/partner4.png"
-          key="partner4"
-          alt="Partner 4"
-          width={64}
-          height={64}
-        />
-        <Image
-          className="mr-7"
-          src="/assets/images/partners/partner5.png"
-          key="partner5"
-          alt="Partner 5"
-          width={64}
-          height={64}
-        />
-        <Image
-          className="mr-7"
-          src="/assets/images/partners/partner6.png"
-          key="partner6"
-          alt="Partner 6"
-          width={60}
-          height={64}
-        />
-      </Marquee>
-    </div>
+      <div className="hidden sm:block">
+        <Desktop />
+      </div>
+      <div className="block sm:hidden">
+        <Mobile />
+      </div>
+    </section>
   );
 };
 
