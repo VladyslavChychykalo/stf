@@ -65,3 +65,15 @@ td {
 th {
   background-color: #f2f2f2;
 }
+
+.left-arrow {
+  transform: rotate(180deg);
+}
+
+.swiper-button-disabled rect {
+  stroke: #d1d5db;
+}
+
+.swiper-button-disabled path {
+  fill: #d1d5db;
+}
