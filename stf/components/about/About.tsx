@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="mt-5 px-4">
+    <section className="mt-5 max-w-[1200px] px-4">
       <ul>
-        <li>
-          <p className="pb-4 text-[15px] leading-[22.5px]">
-            <span className="font-semibold leading-[22.5px]">
-              ТОВ “СТФ ЕНЕРГО”
+        <li className="flex flex-col lg:mt-[-60px] lg:flex-row-reverse lg:gap-[68px]">
+          <p className="pb-4 text-[15px] leading-[22.5px] lg:mt-[100px] lg:text-[20px] lg:leading-[40px]">
+            <span className="font-semibold leading-[22.5px] lg:text-[24px] lg:leading-[40px]">
+              ТОВ “СТФ ЕНЕРГО”{" "}
             </span>
             має багаторічний досвід у сфері ревізії, ремонту, обслуговування та
             монтажу силових трансформаторів. Ми пропонуємо трансформатори різних
@@ -15,7 +15,7 @@ const About = () => {
             кожного замовника, забезпечуючи оптимальні рішення для ваших потреб
             та завдань.
           </p>
-          <div className="relative h-[292px] w-full md:h-[460px] md:w-[467px]">
+          <div className="relative h-[292px] w-full lg:h-[460px] lg:min-w-[467px]">
             <Image
               layout="fill"
               objectFit="contain"
@@ -25,8 +25,8 @@ const About = () => {
             />
           </div>
         </li>
-        <li>
-          <p className="py-4 text-[15px] leading-[22.5px]">
+        <li className="xl2:mt-[-90px] flex flex-col lg:flex-row lg:gap-[150px]">
+          <p className="xl2:mt-[120px] py-4 text-[15px] leading-[22.5px] lg:mt-[80px] lg:text-[20px] lg:leading-[40px]">
             Промисловий ресурс країни може слугувати ефективним засобом для
             економіії ваших коштів. Тому ми пропонуємо вам обладнання скадського
             зберігання, та яке було у використанні, що дозволить заощадити кошти
@@ -34,7 +34,7 @@ const About = () => {
             відзначають якість наших послуг та задоволені результатами
             співпраці.
           </p>
-          <div className="relative h-[405px] w-full md:h-[537px] md:w-[425px]">
+          <div className="relative h-[405px] w-full lg:h-[537px] lg:min-w-[425px]">
             <Image
               layout="fill"
               objectFit="contain"
@@ -44,8 +44,8 @@ const About = () => {
             />
           </div>
         </li>
-        <li>
-          <p className="py-4 text-[15px] leading-[22.5px]">
+        <li className="xl2:mt-[-90px] flex flex-col lg:flex-row-reverse lg:gap-[70px]">
+          <p className="xl2:mt-[120px] py-4 text-[15px] leading-[22.5px] lg:text-[20px] lg:leading-[40px]">
             Ми віримо, що успіх вашого бізнесу є важливим кроком для розвитку
             нашої країни. Тому ми прагнемо спільно працювати з вами в команді,
             щоб вирішити ваші завдання.
@@ -53,7 +53,7 @@ const About = () => {
             <br /> Зверніться до нас сьогодні, і ми з радістю надамо вам
             докладну інформацію про наші послуги та ціни.
           </p>
-          <div className="relative h-[222px] w-full md:h-[326px] md:w-[492px]">
+          <div className="relative h-[222px] w-full lg:h-[326px] lg:min-w-[492px]">
             <Image
               layout="fill"
               objectFit="contain"

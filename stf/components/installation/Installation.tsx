@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Installation = () => {
   return (
-    <section className="mt-[52px] px-4 lg:mt-[126px] lg:px-36">
+    <section className="mt-[52px] max-w-[1200px] px-4 lg:mt-[126px]">
       <h3 className="mb-5 text-center text-[18px] font-bold uppercase leading-[24px] lg:mb-20 lg:text-[36px] lg:leading-[50px]">
         Демонтаж та монтаж
       </h3>

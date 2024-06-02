@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <section className="xl2:pl-[136px] xl2:pr-[139px] xl2:pt-[61px] xl2:pb-[49px] mt-[10px] flex w-full flex-col justify-between bg-custom-blue px-[83px] pb-[30px] pt-[34px] xl:mt-[181px] xl:flex-row">
+    <section className="xl2:pl-[136px] xl2:pr-[139px] xl2:pt-[61px] xl2:pb-[49px] mt-[10px] flex w-full flex-col justify-between bg-custom-blue px-[80px] pb-[30px] pt-[34px] xl:mt-[181px] xl:flex-row">
       <div className="hidden xl:block">
         <Image
           src="assets/icons/footer/footer_logo.svg"

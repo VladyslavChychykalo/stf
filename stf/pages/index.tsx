@@ -42,8 +42,10 @@ export default function Home() {
         <Installation />
         <Partners />
         <Contacts />
-        <Footer />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

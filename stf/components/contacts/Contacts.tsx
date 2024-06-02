@@ -3,7 +3,7 @@ import Image from "next/image";
 const Contacts = () => {
   return (
     <section className="mt-[52px] lg:mt-[100px]">
-      <h3 className="mb-5 text-center text-[18px] font-bold uppercase leading-[24px] lg:text-[36px] lg:leading-[50px]">
+      <h3 className="mb-5 text-center text-[18px] font-bold uppercase leading-[24px] lg:mb-12 lg:text-[36px] lg:leading-[50px]">
         Контакти
       </h3>
       <div className="xl2:gap-[120px] flex flex-col xl:flex-row-reverse">

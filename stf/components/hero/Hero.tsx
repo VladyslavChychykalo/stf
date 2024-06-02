@@ -1,9 +1,9 @@
 import { Navbar } from "@/components/shared";
 import Image from "next/image";
-
+// lg:pb-[52px]
 const Hero = () => {
   return (
-    <section className="rounded-big bg-custom-blue px-[16px] pb-[36px] pt-[141px] lg:rounded-b-[140px] lg:pb-[52px] lg:pt-0">
+    <section className="rounded-big bg-custom-blue px-[16px] pb-[36px] pt-[141px] lg:rounded-b-[140px] lg:pb-[80px] lg:pt-0">
       <div className="hidden lg:block">
         <Navbar />
       </div>
