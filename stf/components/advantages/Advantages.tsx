@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Desktop from "./desktop/Desktop";
+import Mobile from "./mobile/Mobile";
 
 type AdvantagesT = {
   title: string;
@@ -40,15 +42,18 @@ const Advantages = () => {
   ];
 
   return (
-    <section className="relative mt-[52px] px-[43px]">
-      <div
-        className="bg-advantages-background absolute left-0 top-[-60px] z-[-1] h-[342px] w-full max-w-[445px] bg-cover bg-center"
-        style={{ backgroundImage: "url('assets/images/electricity.png')" }}
-      />
+    <section className="relative mt-[52px] w-full px-[43px]">
+      <div className="hidden lg:block">
+        <Desktop />
+      </div>
+      <div className="block lg:hidden">
+        <Mobile />
+      </div>
+
       <h3 className="mb-5 text-center text-[18px] font-bold uppercase leading-[24px] lg:mb-12 lg:text-[36px] lg:leading-[50px]">
         Наші переваги
       </h3>
-      <ul className="flex flex-col gap-2 lg:flex-row lg:flex-wrap lg:justify-center lg:gap-x-[88px] lg:gap-y-[44px]">
+      <ul className="m-auto flex max-w-[1060px] flex-col gap-2 lg:flex-row lg:flex-wrap lg:justify-center lg:gap-x-[88px] lg:gap-y-[44px]">
         {advantagesArr.map(({ title, description, icon }: AdvantagesT) => {
           return (
             <li
