@@ -1,13 +1,13 @@
-import MobileHeader from "./mobile/MobileHeader";
 import DesktopHeader from "./desktop/DesktopHeader";
+import MobileHeader from "./mobile/MobileHeader";
 
 const Header = () => {
   return (
     <>
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <DesktopHeader />
       </div>
-      <div className="block md:hidden">
+      <div className="block lg:hidden">
         <MobileHeader />
       </div>
     </>
