@@ -3,6 +3,7 @@
 import About from "@/components/about";
 import Advantages from "@/components/advantages";
 import Contacts from "@/components/contacts/Contacts";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Installation from "@/components/installation";
@@ -41,6 +42,7 @@ export default function Home() {
         <Installation />
         <Partners />
         <Contacts />
+        <Footer />
       </main>
     </div>
   );
