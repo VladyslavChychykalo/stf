@@ -1,7 +1,7 @@
 export const NAV_ITEMS = [
-  { name: "Про нас", href: "#services" },
-  { name: "Наші переваги", href: "#services" },
-  { name: "Наші роботи", href: "#services" },
-  { name: "Види трансформаторів", href: "#services" },
-  { name: "Контакти", href: "#services" },
+  { name: "Про нас", href: "#about" },
+  { name: "Наші переваги", href: "#advantages" },
+  { name: "Наші роботи", href: "#works" },
+  { name: "Види трансформаторів", href: "#types" },
+  { name: "Контакти", href: "#contacts" },
 ];

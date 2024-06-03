@@ -1,5 +1,6 @@
 import { NAV_ITEMS } from "@/utils/data";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -17,15 +18,14 @@ const Footer = () => {
         <ul className="flex flex-col gap-1">
           {NAV_ITEMS.map((item) => (
             <li
-              className="flex justify-center px-[10px] py-[8px] xl:justify-start"
+              className="nav-item flex justify-center px-[10px] py-[8px] xl:justify-start"
               key={item.name}
             >
-              <a
-                href={item.href}
-                className="text-[16px] font-semibold  text-custom-white"
-              >
-                {item.name}
-              </a>
+              <Link href={item.href} passHref>
+                <a className="text-[16px] font-semibold  text-custom-white">
+                  {item.name}
+                </a>
+              </Link>
             </li>
           ))}
         </ul>
