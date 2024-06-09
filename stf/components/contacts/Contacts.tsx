@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const Contacts = () => {
   return (
-    <section className="mt-[52px] lg:mt-[100px]">
+    <section id="contacts" className="mt-[52px] lg:mt-[100px]">
       <h3 className="mb-5 text-center text-[18px] font-bold uppercase leading-[24px] lg:mb-12 lg:text-[36px] lg:leading-[50px]">
         Контакти
       </h3>
-      <div className="xl2:gap-[120px] flex flex-col xl:flex-row-reverse">
+      <div className="flex flex-col xl:flex-row-reverse xl2:gap-[120px]">
         <div>
-          <div className="shadow-custom-contact w-custom relative z-10 mx-auto max-w-[710px] rounded-[12px] bg-white px-5 py-4 lg:w-full lg:px-16 lg:py-11">
+          <div className="relative z-10 mx-auto w-custom max-w-[710px] rounded-[12px] bg-white px-5 py-4 shadow-custom-contact lg:w-full lg:px-16 lg:py-11">
             <p className="mb-4 text-center text-[16px] font-semibold leading-[24px] lg:mb-6 lg:text-start lg:text-[24px]">
               Зв’яжіться з нами
             </p>
@@ -74,7 +74,7 @@ const Contacts = () => {
                 width={24}
                 height={24}
               />
-              <p>+380630705100</p>
+              <p>+380968972440</p>
             </div>
           </li>
           <li className="flex flex-col gap-2">
@@ -91,7 +91,7 @@ const Contacts = () => {
                 width={24}
                 height={24}
               />
-              <p>+380630705100</p>
+              <p>+380679761647</p>
             </div>
             <div className="flex h-[44px] items-center gap-3 xl:h-auto">
               <Image
@@ -100,7 +100,7 @@ const Contacts = () => {
                 width={24}
                 height={24}
               />
-              <p>trans.energo@ukr.net</p>
+              <p>st_energo@i.ua</p>
             </div>
           </li>
         </ul>

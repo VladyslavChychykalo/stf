@@ -42,7 +42,7 @@ const Advantages = () => {
   ];
 
   return (
-    <section className="relative mt-[52px] w-full px-[43px]">
+    <section id="advantages" className="relative mt-[52px] w-full px-[43px]">
       <div className="hidden lg:block">
         <Desktop />
       </div>
@@ -57,7 +57,7 @@ const Advantages = () => {
         {advantagesArr.map(({ title, description, icon }: AdvantagesT) => {
           return (
             <li
-              className="flex flex-col items-center gap-1 rounded-[20px] border-[1px] border-solid border-custom-blue bg-white p-3 lg:w-[292px] lg:gap-[18px] lg:px-[20px] lg:pb-[32px] lg:pt-[20px] lg:shadow-lg"
+              className="flex flex-col items-center gap-1 rounded-[20px] border-[1px] border-solid border-custom-blue bg-white p-3 lg:w-[292px] lg:gap-[18px] lg:px-[20px] lg:pb-[32px] lg:pt-[20px]"
               key={title}
             >
               <div className="h-8 w-8 lg:h-12 lg:w-12">

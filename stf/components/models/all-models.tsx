@@ -132,7 +132,7 @@ export const TmgModel = () => {
             width={320}
           />
         </div>
-        <div className="w-full px-9 xl:px-0">
+        <div className="w-full px-[27px] xl:px-0">
           <table className="min-w-full">
             <tbody>
               <tr>

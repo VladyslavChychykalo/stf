@@ -110,14 +110,6 @@ const DesktopSwiper = () => {
       <div className="absolute bottom-[-80px] left-0 right-0 flex justify-center px-4">
         <div>
           <button className="custom-prev mr-[71px]">
-            {/* <Image
-              src="assets/icons/navigation/arrow-right.svg"
-              alt="navigation"
-              width={40}
-              height={40}
-              className="left-arrow"
-            /> */}
-
             <svg
               width="48"
               height="48"
@@ -135,8 +127,8 @@ const DesktopSwiper = () => {
                 stroke="#1B4A9D"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M23.2929 16.2929C23.6834 15.9024 24.3166 15.9024 24.7071 16.2929L31.7071 23.2929C32.0976 23.6834 32.0976 24.3166 31.7071 24.7071L24.7071 31.7071C24.3166 32.0976 23.6834 32.0976 23.2929 31.7071C22.9024 31.3166 22.9024 30.6834 23.2929 30.2929L28.5858 25H17C16.4477 25 16 24.5523 16 24C16 23.4477 16.4477 23 17 23H28.5858L23.2929 17.7071C22.9024 17.3166 22.9024 16.6834 23.2929 16.2929Z"
                 fill="#1B4A9D"
               />
@@ -160,19 +152,12 @@ const DesktopSwiper = () => {
                 stroke="#1B4A9D"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M23.2929 16.2929C23.6834 15.9024 24.3166 15.9024 24.7071 16.2929L31.7071 23.2929C32.0976 23.6834 32.0976 24.3166 31.7071 24.7071L24.7071 31.7071C24.3166 32.0976 23.6834 32.0976 23.2929 31.7071C22.9024 31.3166 22.9024 30.6834 23.2929 30.2929L28.5858 25H17C16.4477 25 16 24.5523 16 24C16 23.4477 16.4477 23 17 23H28.5858L23.2929 17.7071C22.9024 17.3166 22.9024 16.6834 23.2929 16.2929Z"
                 fill="#1B4A9D"
               />
             </svg>
-
-            {/* <Image
-              src="assets/icons/navigation/arrow-right.svg"
-              alt="navigation"
-              width={40}
-              height={40}
-            /> */}
           </button>
         </div>
       </div>

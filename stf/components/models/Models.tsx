@@ -2,7 +2,7 @@ import { TmModel, TmgModel, TmzModel } from "./all-models";
 
 const Models = () => {
   return (
-    <section className="mt-[48px] w-full bg-[#FAFAFA] lg:mt-[120px]">
+    <section id="types" className="mt-[48px] w-full lg:mt-[120px]">
       <h3 className="mb-[20px] text-center text-[18px] font-bold uppercase leading-[24px] lg:mb-[48px] lg:text-[36px]">
         Види Трансформаторів
       </h3>

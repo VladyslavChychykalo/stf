@@ -7,8 +7,8 @@ export const Navbar = () => {
       <ul className="flex flex-col gap-4 p-6 lg:w-[1000px] lg:flex-row lg:gap-8 lg:p-0">
         {NAV_ITEMS.map((item) => (
           <li className="nav-item m-auto" key={item.name}>
-            <Link href={item.href} passHref>
-              <a className="text-custom-grey text-[16px] font-semibold lg:text-[20px] lg:text-custom-white">
+            <Link legacyBehavior href={item.href} passHref>
+              <a className="text-[16px] font-semibold text-custom-grey lg:text-[20px] lg:text-custom-white">
                 {item.name}
               </a>
             </Link>

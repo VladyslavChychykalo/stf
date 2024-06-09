@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="xl2:pl-[136px] xl2:pr-[139px] xl2:pt-[61px] xl2:pb-[49px] mt-[10px] flex w-full flex-col justify-between bg-custom-blue px-[80px] pb-[30px] pt-[34px] xl:mt-[181px] xl:flex-row">
+    <section className="mt-[10px] flex w-full flex-col justify-between bg-custom-blue px-[80px] pb-[30px] pt-[34px] xl:mt-[181px] xl:flex-row xl2:pb-[49px] xl2:pl-[136px] xl2:pr-[139px] xl2:pt-[61px]">
       <div className="hidden xl:block">
         <Image
           src="assets/icons/footer/footer_logo.svg"
@@ -21,7 +21,7 @@ const Footer = () => {
               className="nav-item flex justify-center px-[10px] py-[8px] xl:justify-start"
               key={item.name}
             >
-              <Link href={item.href} passHref>
+              <Link legacyBehavior href={item.href} passHref>
                 <a className="text-[16px] font-semibold  text-custom-white">
                   {item.name}
                 </a>
@@ -34,7 +34,7 @@ const Footer = () => {
         <p className="text-[15px] font-bold text-custom-white xl:leading-[50px]">
           Адреса
         </p>
-        <p className="text-custom-white">вул. Каштанова 19 а, м. Бар,</p>
+        {/* <p className="text-custom-white">вул. Каштанова 19 а, м. Бар,</p> */}
         <p className="text-custom-white">Вінницька обл., Україна</p>
       </div>
 

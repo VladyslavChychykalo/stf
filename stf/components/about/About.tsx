@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="mt-5 max-w-[1200px] px-4">
+    <section id="about" className="mt-5 max-w-[1200px] px-4">
       <ul>
         <li className="flex flex-col lg:mt-[-60px] lg:flex-row-reverse lg:gap-[68px]">
           <p className="pb-4 text-[15px] leading-[22.5px] lg:mt-[100px] lg:text-[20px] lg:leading-[40px]">
@@ -25,8 +25,8 @@ const About = () => {
             />
           </div>
         </li>
-        <li className="xl2:mt-[-90px] flex flex-col lg:flex-row lg:gap-[150px]">
-          <p className="xl2:mt-[120px] py-4 text-[15px] leading-[22.5px] lg:mt-[80px] lg:text-[20px] lg:leading-[40px]">
+        <li className="flex flex-col lg:flex-row lg:gap-[150px] xl2:mt-[-90px]">
+          <p className="py-4 text-[15px] leading-[22.5px] lg:mt-[80px] lg:text-[20px] lg:leading-[40px] xl2:mt-[120px]">
             Промисловий ресурс країни може слугувати ефективним засобом для
             економіії ваших коштів. Тому ми пропонуємо вам обладнання скадського
             зберігання, та яке було у використанні, що дозволить заощадити кошти
@@ -44,8 +44,8 @@ const About = () => {
             />
           </div>
         </li>
-        <li className="xl2:mt-[-90px] flex flex-col lg:flex-row-reverse lg:gap-[70px]">
-          <p className="xl2:mt-[120px] py-4 text-[15px] leading-[22.5px] lg:text-[20px] lg:leading-[40px]">
+        <li className="flex flex-col lg:flex-row-reverse lg:gap-[70px] xl2:mt-[-90px]">
+          <p className="py-4 text-[15px] leading-[22.5px] lg:text-[20px] lg:leading-[40px] xl2:mt-[120px]">
             Ми віримо, що успіх вашого бізнесу є важливим кроком для розвитку
             нашої країни. Тому ми прагнемо спільно працювати з вами в команді,
             щоб вирішити ваші завдання.
