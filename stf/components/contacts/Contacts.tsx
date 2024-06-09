@@ -51,7 +51,7 @@ const Contacts = () => {
                 width={24}
                 height={24}
               />
-              <p>+380630705100</p>
+              <a href="tel:+380630705100">+380630705100</a>
             </div>
             <div className="flex h-[44px] items-center gap-3 xl:h-auto">
               <Image
@@ -60,7 +60,7 @@ const Contacts = () => {
                 width={24}
                 height={24}
               />
-              <p>trans.energo@ukr.net</p>
+              <a href="mailto:trans.energo@ukr.net">trans.energo@ukr.net</a>
             </div>
           </li>
           <li className="flex flex-col gap-2">
@@ -74,7 +74,7 @@ const Contacts = () => {
                 width={24}
                 height={24}
               />
-              <p>+380968972440</p>
+              <a href="tel:+380968972440">+380968972440</a>
             </div>
           </li>
           <li className="flex flex-col gap-2">
@@ -91,7 +91,7 @@ const Contacts = () => {
                 width={24}
                 height={24}
               />
-              <p>+380679761647</p>
+              <a href="tel:+380679761647">+380679761647</a>
             </div>
             <div className="flex h-[44px] items-center gap-3 xl:h-auto">
               <Image
@@ -100,7 +100,7 @@ const Contacts = () => {
                 width={24}
                 height={24}
               />
-              <p>st_energo@i.ua</p>
+              <a href="mailto:st_energo@i.ua">st_energo@i.ua</a>
             </div>
           </li>
         </ul>

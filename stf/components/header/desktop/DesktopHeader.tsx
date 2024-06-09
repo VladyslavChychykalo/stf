@@ -18,7 +18,7 @@ const DesktopHeader = () => {
             width={24}
             height={24}
           />
-          <p>+380679761647</p>
+          <a href="tel:+380679761647">+380679761647</a>
         </div>
         <div className="flex items-center gap-3">
           <Image
@@ -27,7 +27,7 @@ const DesktopHeader = () => {
             width={24}
             height={24}
           />
-          <p>st_energo@i.ua</p>
+          <a href="mailto:st_energo@i.ua">st_energo@i.ua</a>
         </div>
       </div>
     </div>
