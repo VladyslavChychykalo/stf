@@ -137,68 +137,68 @@ export const TmgModel = () => {
             <tbody>
               <tr>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 25/10/0,4
+                  TMГ 25/10/0,4
                 </td>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 100/10/0,4
+                  TMГ 100/10/0,4
                 </td>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 400/10/0,4
-                </td>
-              </tr>
-              <tr>
-                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 25/10/0,4
-                </td>
-                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 100/6/0,4
-                </td>
-                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 400/10/0,4
+                  TMГ 400/10/0,4
                 </td>
               </tr>
               <tr>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 40/10/0,4
+                  TMГ 25/10/0,4
                 </td>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 160/10/0,4
+                  TMГ 100/6/0,4
                 </td>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 630/10/0,4
-                </td>
-              </tr>
-              <tr>
-                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 40/6/0,4
-                </td>
-                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 160/6/0,4
-                </td>
-                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 630/6/0,4
+                  TMГ 400/10/0,4
                 </td>
               </tr>
               <tr>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 63/6/0,4
+                  TMГ 40/10/0,4
                 </td>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 250/10/0,4
+                  TMГ 160/10/0,4
                 </td>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 1000/10/0,4
+                  TMГ 630/10/0,4
                 </td>
               </tr>
               <tr>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TM 63/6/0,4
+                  TMГ 40/6/0,4
                 </td>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 250/6/0,4
+                  TMГ 160/6/0,4
                 </td>
                 <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
-                  TMF 1000/10/0,4
+                  TMГ 630/6/0,4
+                </td>
+              </tr>
+              <tr>
+                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
+                  TMГ 63/6/0,4
+                </td>
+                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
+                  TMГ 250/10/0,4
+                </td>
+                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
+                  TMГ 1000/10/0,4
+                </td>
+              </tr>
+              <tr>
+                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
+                  TMГ 63/6/0,4
+                </td>
+                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
+                  TMГ 250/6/0,4
+                </td>
+                <td className="text-left xl:px-[20px] xl:py-[5px] xl:text-[20px] xl:leading-[50px]">
+                  TMГ 1000/10/0,4
                 </td>
               </tr>
             </tbody>
